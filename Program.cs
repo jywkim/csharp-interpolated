@@ -6,7 +6,8 @@ namespace csharp_stringinterpolation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var name = "Jonathan";
+            Console.WriteLine($"Hello, {name}. It's a pleasure to meet you!");
         }
     }
 }
