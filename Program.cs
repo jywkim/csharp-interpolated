@@ -43,5 +43,7 @@ public class Example
       Console.WriteLine($"|{"Author",-25}|{"Title",30}|");
       foreach (var title in titles)
          Console.WriteLine($"|{title.Key,-25}|{title.Value,30}|");
+
+      Console.WriteLine($"[{DateTime.Now,-20:d}] Hour [{DateTime.Now,-10:HH}] [{1063.342,15:N2}] feet");
    }
 }
