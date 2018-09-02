@@ -34,8 +34,8 @@ public class Example
       var titles = new Dictionary<string, string>()
       {
           ["Doyle, Arthur Conan"] = "Hound of the Baskervilles, The",
-          ["London, Jack"] = "Call of the Wild, The",
-          ["Shakespeare, William"] = "Tempest, The"
+          ["London, Jackie"] = "Call of the Wild, The",
+          ["Shakespeare, Will"] = "Tempest, The"
       };
 
       Console.WriteLine("Author and Title List");
